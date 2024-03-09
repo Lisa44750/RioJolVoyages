@@ -8,3 +8,8 @@ body {
     color: #ffffff; /* Couleur du texte, choisissez une couleur lisible */
     font-family: Arial, sans-serif; /* Police de caractères, choisissez celle que vous préférez */
   }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
