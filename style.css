@@ -1,12 +1,13 @@
 body {
     background: linear-gradient(to bottom, #ff0000, #00ff00, #ffff00, #0000ff);
-    margin: 0; /* Pour enlever la marge par défaut du corps */
-    height: 100vh; /* Pour occuper 100% de la hauteur de la fenêtre */
+    margin: 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff; /* Couleur du texte, choisissez une couleur lisible */
-    font-family: Arial, sans-serif; /* Police de caractères, choisissez celle que vous préférez */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    filter: brightness(80%); /* Ajout d'un filtre de luminosité pour atténuer la couleur de fond */
 }
 
 img {
