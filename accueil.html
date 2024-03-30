@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RioJolVoyages - Accueil</title>
-
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur le site de RioJolVoyages. Découvrez nos services et offres pour voyager au Brésil.">
+    <meta name="keywords" content="voyage, Brésil, Rio de Janeiro, tourisme">
+    <title>RioJolVoyages - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <a href="index.html"><img src="images/logo.svg" alt="Logo My Company"/></a>
-
-    <h1>RioJolVoyages</h1>
-    <h2>Votre partenaire pour [votre domaine d'activité]</h2>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="bienvenue">
-      <h2>Bienvenue chez RioJolVoyages</h2>
-      <p>
-        [Texte d'introduction sur votre entreprise, ses valeurs et ses services.]
-      </p>
-      <a href="prestations.html" class="btn">En savoir plus</a>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo de RioJolVoyages" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="mentions_legales.html">Mentions légales</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h1>Bienvenue chez RioJolVoyages</h1>
+            <p>Découvrez nos offres exclusives pour un voyage inoubliable au Brésil.</p>
+            <a href="#services" class="btn">Découvrir nos services</a>
+        </div>
     </section>
 
-    </main>
+    <section id="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service">
+                <img src="images/programmes.jpg" alt="Programmes">
+                <h3>Programmes</h3>
+                <p>Explorez nos programmes variés pour découvrir les merveilles du Brésil selon vos envies.</p>
+            </div>
+            <div class="service">
+                <img src="images/avis.jpg" alt="Avis">
+                <h3>Avis de nos clients</h3>
+                <p>Découvrez ce que nos clients disent à propos de leurs expériences avec RioJolVoyages.</p>
+            </div>
+            <div class="service">
+                <img src="images/excursions.jpg" alt="Excursions">
+                <h3>Excursions</h3>
+                <p>Participez à nos excursions uniques pour explorer les trésors cachés du Brésil avec des guides experts.</p>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; RioJolVoyages - 2024 - <a href="mentions_legales.html">Mentions légales</a></p>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        <div class="container">
+            <a href="mentions_legales.html">Mentions légales</a>
+            <p>&copy; 2024 RioJolVoyages. Tous droits réservés.</p>
+        </div>
+    </footer>
 </body>
 </html>
